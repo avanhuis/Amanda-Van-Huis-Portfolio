@@ -1,0 +1,89 @@
+/* 
+6d6e72 - grey color
+d3832a - orange/gold
+d7c9c9 - blush pink
+7c8a79 - olive green
+*/
+* {
+	box-sizing: border-box; /*includes padding and border into the total width and height*/
+}
+
+/*Responsive Grid*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*Styles*/
+
+@font-face {
+	font-family: "Ethos";
+	src: url(fonts/ethos.ttf);
+}
+
+body {
+  background-color: #fff;
+}
+
+.header {
+	height: 100px;
+}
+
+.header h1 {
+	text-align: center;	
+	font-family: "Adelle", "Garamond", sans-serif;
+	color: #000;	
+/*	text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);*/
+}
+
+.header h2 {
+	text-align: center;
+	font-family: "Museo Sans", sans-serif;	
+}
+
+nav ul li {
+	display: inline;
+}
+
+.fixed {
+	top: 0;
+	width: 100%;
+	position: fixed;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Antonio", serif;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	font-family: "Antonio", serif;
+	color: #7c8a79;
+}
+
+a:active {
+	text-decoration: none;
+	font-family: "Antonio", serif;
+	color: #d7c9c9;
+}
+
+p {
+	font-family: "proxima-nova", sans-serif;
+}
